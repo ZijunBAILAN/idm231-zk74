@@ -36,6 +36,10 @@
     line-height: 40px;
 }
 
+.display-div{
+    margin-top: 40px;
+}
+
 .section_name label{
     font-size: 25px;
     font-weight: bold;
@@ -65,4 +69,35 @@
 .show-zodiac p{
     font-size: 30px;
     text-align: center;
+}
+
+.sign-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-top: 36px;
+}
+
+.sign-wrapper .sign-box{
+    width: 120px;
+    height: 120px;
+}
+
+.sign-wrapper .sign-box p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:deeppink;
+}
+
+.sign-wrapper .sign{
+    box-shadow: 5px 5px rosybrown;
+}
+
+.sign-wrapper .sign img{
+    width: 120px;
+}
+
+.sign-wrapper .sign:hover{
+    box-shadow: 0 0 20px purple;
 }
