@@ -1,0 +1,68 @@
+:root{
+    --WIDTH: 800px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center{
+    width: var(--WIDTH);
+    margin: 0 auto;
+}
+
+.header-name{
+    margin-top: 10px;
+    width: 280px;
+    border-bottom: solid 3px transparent;
+}
+
+.header-name:hover{
+    border-bottom: solid 3px red;
+
+}
+
+.header-name label{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section_name{
+    margin-top: 20px;
+    background-color: antiquewhite;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.section_name label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.birth-date{
+    width: 350px;
+    margin: 20px auto;
+}
+
+.birth-date label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.birth-date input{
+    height: 30px;
+    width: 200px;
+}
+
+.show-zodiac{
+    width: 350px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.show-zodiac p{
+    font-size: 30px;
+    text-align: center;
+}
